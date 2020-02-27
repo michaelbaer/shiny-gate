@@ -1,0 +1,9 @@
+version: '2.4'
+
+services:
+
+  reverse-proxy:
+    image: nginx:1.15.1
+    restart: always
+    ports:
+      - "80:80"
